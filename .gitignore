@@ -1,0 +1,20 @@
+# Terraform working files
+.terraform/
+*.tfstate
+*.tfstate.*
+crash.log
+*.tfvars
+*.tfvars.json
+.terraformrc
+terraform.rc
+
+# Secrets, never commit these
+.env
+*.pem
+*.key
+credentials
+
+# Windows and editor clutter
+.DS_Store
+Thumbs.db
+.vscode/
